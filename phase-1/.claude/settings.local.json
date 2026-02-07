@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\":*)",
+      "Bash(powershell.exe:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(python test_app.py:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

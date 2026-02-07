@@ -1,0 +1,3 @@
+# No external dependencies required
+# This project uses Python 3.13+ standard library only
+# Per constitution: In-memory only, no external packages
