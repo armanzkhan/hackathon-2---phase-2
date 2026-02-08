@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git fetch:*)",
       "Bash(bash:*)",
-      "Bash(python -m pytest:*)"
+      "Bash(python -m pytest:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }

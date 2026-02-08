@@ -3,7 +3,6 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://arman112333-todo-app.hf.space",
-    "NEXT_PUBLIC_BETTER_AUTH_SECRET": "@better-auth-secret"
+    "NEXT_PUBLIC_API_URL": "https://arman112333-todo-app.hf.space"
   }
 }

@@ -1,13 +1,12 @@
 'use client'
 
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import { logout, getUserId } from '@/lib/auth'
 import TaskList from '@/components/TaskList'
 import TaskForm from '@/components/TaskForm'
 
 export default function TasksPage() {
   const [userId, setUserId] = useState<string | null>(null)
-  const taskListRef = useRef<{ refetch: () => void }>(null)
 
   useEffect(() => {
     const id = getUserId()

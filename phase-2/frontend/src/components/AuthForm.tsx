@@ -4,7 +4,7 @@ import { useState, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import apiClient from '@/lib/api-client'
 import { setAuthToken } from '@/lib/auth'
-import type { AuthResponse, ErrorResponse } from '@/lib/types'
+import type { AuthResponse } from '@/lib/types'
 
 interface AuthFormProps {
   mode: 'login' | 'signup'

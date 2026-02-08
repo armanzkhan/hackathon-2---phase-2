@@ -44,7 +44,7 @@ export default function TaskList({ userId }: TaskListProps) {
     }
   }
 
-  const handleToggle = async (taskId: number) => {
+  const handleToggle = async (_taskId: number) => {
     // Refresh list after toggle
     await fetchTasks()
   }
