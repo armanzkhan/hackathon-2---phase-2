@@ -1,0 +1,29 @@
+# Vercel ignore file for backend
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+test.db
+
+# Development
+.env
+.env.local
+.vscode/
+.idea/
+
+# Documentation
+README.md
+docs/

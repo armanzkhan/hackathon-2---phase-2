@@ -1,0 +1,26 @@
+# Vercel ignore file for frontend
+
+# Dependencies
+node_modules/
+
+# Testing
+tests/
+coverage/
+.jest/
+playwright-report/
+test-results/
+
+# Development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+README.md
+*.log
+.DS_Store

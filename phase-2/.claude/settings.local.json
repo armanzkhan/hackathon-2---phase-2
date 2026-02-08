@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(bash:*)",
+      "Bash(python -m pytest:*)"
+    ]
+  }
+}
